@@ -1,0 +1,68 @@
+form {
+    padding: 20px;
+}
+form a {
+    color: inherit;
+    font-weight: 700;
+    border-bottom: 2px solid #ffb300;
+}
+form a:hover {
+    color: darkred;
+    border: none;
+    text-decoration: none;
+}
+form small {
+    font-size: 14px;
+}
+form ul {
+    list-style-type: none;
+    padding: 0px;
+}
+input {
+    padding: 5px 15px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-width: 300px;
+    margin: 0px;
+}
+.form-label {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+}
+.form-checkbox {
+    display: inline-block;
+}
+.form-checkbox-item {
+    display: block;
+}
+.form-checkbox-item label {
+    margin: 8px;
+    vertical-align: middle;
+}
+.form-line {
+    margin-bottom: 30px;
+}
+.form-sub-label {
+    font-size: 14px;
+    color: #555;
+    margin: 0px 0px 15px 10px;
+}
+.form-submit-button {
+    background: #ffb300;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0px;
+}
+.form-submit-button:hover {
+    background: #000;
+    color: #fff;
+}
+@media screen and (min-width:997px) {
+    form {
+        padding-left: 50px;
+    }
+}
