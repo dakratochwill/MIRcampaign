@@ -18,7 +18,9 @@ h3 {
     font-weight: 700;
 }
 
-header, section, footer {
+header,
+section,
+footer {
     max-width: 1500px;
     margin: 0px auto;
 }
@@ -79,10 +81,11 @@ header, section, footer {
     padding: 40px 20px;
     background: #487F62;
     color: #fff;
+    text-align: center;
 }
 
 .masthead .logo {
-    max-width: 200px;
+    max-width: 300px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -97,7 +100,9 @@ header, section, footer {
     max-width: 300px;
 }
 
-.programs, .form, .thanks {
+.programs,
+.form,
+.thanks {
     background: #fff;
     padding: 40px 10px 60px;
 }
@@ -111,6 +116,7 @@ header, section, footer {
     background: none;
     font-weight: 700;
     padding: 15px;
+    font-size: 18px;
 }
 
 .card-header a {
@@ -126,6 +132,7 @@ header, section, footer {
 .card-header [aria-expanded="true"] .fa {
     transform: rotate(135deg);
 }
+
 .card-header .fa {
     transition: 300ms transform ease-in-out;
     float: right;
@@ -143,7 +150,7 @@ header, section, footer {
     background: #487F62;
     color: #fff;
     text-align: center;
-    
+
 }
 
 .thanks {
@@ -157,7 +164,7 @@ footer {
     color: #ccc;
     padding: 20px;
     font-size: 18px;
-    
+
 }
 
 footer p {
@@ -181,22 +188,39 @@ footer a:hover {
         left: 30px;
         top: 30px;
     }
+
     .masthead-content {
-    position: absolute;
-    left: 30px;
-    top: 25vw;
-    max-width: 500px;
-    background: rgba(72,127,98,0.9);
-    color: #fff;
-}
+        position: absolute;
+        left: 30px;
+        top: 32vw;
+        max-width: 500px;
+        background: rgba(72, 127, 98, 0.9);
+        color: #fff;
+    }
+    
+    .card-header {
+        font-size: inherit;
+    }
+
     .btm-content {
         font-size: 24px;
     }
-    
+
     .btm-content .title {
-    font-size: 40px;
-}
+        font-size: 40px;
+    }
+
     footer {
         padding: 40px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .masthead-content {
+        top: 36vw;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .masthead-content {
+        top: 30vw;
     }
 }

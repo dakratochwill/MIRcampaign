@@ -31,6 +31,10 @@ input {
     font-size: 24px;
     line-height: 1;
 }
+.form-required {
+    color: darkred;
+    font-size: 20px;
+}
 .form-checkbox {
     display: inline-block;
 }
