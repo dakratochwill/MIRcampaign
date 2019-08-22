@@ -26,6 +26,10 @@ input {
     min-width: 300px;
     margin: 0px;
 }
+.form-image {
+    max-width: 100%;
+    height: auto;
+}
 .form-label {
     font-weight: 700;
     font-size: 24px;
