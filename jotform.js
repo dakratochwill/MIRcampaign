@@ -28,7 +28,7 @@
 	    "name": "highSchool",
 	    "qid": "6",
 	    "subLabel": "",
-	    "text": "High School Graduation Year",
+	    "text": "Anticipated High School Graduation Year",
 	    "type": "control_textbox"
 	}, {
 	    "description": "",
@@ -42,7 +42,7 @@
 	    "labelText": "",
 	    "name": "image",
 	    "qid": "8",
-	    "text": "Word%20Art%20(6).5d5e9bfdca9067.93419463",
+	    "text": "Word%20Art%20(7).5d5ebc7c9a6d19.09218177",
 	    "type": "control_image"
 	}]);
 	setTimeout(function () {
@@ -69,7 +69,7 @@
 	        "name": "highSchool",
 	        "qid": "6",
 	        "subLabel": "",
-	        "text": "High School Graduation Year",
+	        "text": "Anticipated High School Graduation Year",
 	        "type": "control_textbox"
 	    }, {
 	        "description": "",
@@ -83,7 +83,7 @@
 	        "labelText": "",
 	        "name": "image",
 	        "qid": "8",
-	        "text": "Word%20Art%20(6).5d5e9bfdca9067.93419463",
+	        "text": "Word%20Art%20(7).5d5ebc7c9a6d19.09218177",
 	        "type": "control_image"
 	    }]);
 	}, 20);
