@@ -18,13 +18,14 @@ form ul {
     list-style-type: none;
     padding: 0px;
 }
-input {
+input, textarea {
     padding: 5px 15px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 10px;
     min-width: 300px;
     margin: 0px;
+    max-width: 100%;
 }
 .form-image {
     max-width: 100%;
