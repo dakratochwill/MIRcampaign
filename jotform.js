@@ -42,7 +42,7 @@
 	    "labelText": "",
 	    "name": "image",
 	    "qid": "8",
-	    "text": "Word%20Art%20(7).5d5ebc7c9a6d19.09218177",
+	    "text": "wordcloud.5d5ebf36de9655.72551873",
 	    "type": "control_image"
 	}]);
 	setTimeout(function () {
@@ -83,7 +83,7 @@
 	        "labelText": "",
 	        "name": "image",
 	        "qid": "8",
-	        "text": "Word%20Art%20(7).5d5ebc7c9a6d19.09218177",
+	        "text": "wordcloud.5d5ebf36de9655.72551873",
 	        "type": "control_image"
 	    }]);
 	}, 20);
